@@ -1,0 +1,26 @@
+[
+  {
+    "pregunta": "1.- Mencione un personaje bíblico cuyo nombre comienza con la letra J.",
+    "respuestas": [
+      { "nombre": "jesus", "puntos": 6 , "id": "11"},
+      { "nombre": "josue", "puntos": 5, "id": "12" },
+      { "nombre": "jose", "puntos": 4, "id": "13" },
+      { "nombre": "jeremias", "puntos": 3 , "id": "14"},
+      { "nombre": "job", "puntos": 3 , "id": "15"},
+      { "nombre": "jose", "puntos": 4, "id": "16" },
+      { "nombre": "jeremias", "puntos": 3 , "id": "17"},
+      { "nombre": "job", "puntos": 3 , "id": "18"}
+    ],
+    "id": "1"
+  },
+  {
+    "pregunta": "2.- ¿Cuál es el ingrediente que más utiliza en sus comidas?",
+    "respuestas": [
+      { "nombre": "Sal", "puntos": 13 , "id": "21"},
+      { "nombre": "Aceite", "puntos": 5, "id": "22" },
+      { "nombre": "Arroz", "puntos": 2, "id": "23" },
+      { "nombre": "Cebolla", "puntos": 2 , "id": "24"}
+    ],
+    "id": "2"
+  }
+]
