@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css"
-import Respuestas from "./components/respuestas";
+import Respuestas from "./components/Respuestas";
 import preguntasRespuestas from "./db/preguntasRespuestas.json";
 import Modal from "./components/Modal";
 
