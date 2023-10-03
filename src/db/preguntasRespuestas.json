@@ -6,10 +6,7 @@
       { "nombre": "josue", "puntos": 5, "id": "12" },
       { "nombre": "jose", "puntos": 4, "id": "13" },
       { "nombre": "jeremias", "puntos": 3 , "id": "14"},
-      { "nombre": "job", "puntos": 3 , "id": "15"},
-      { "nombre": "jose", "puntos": 4, "id": "16" },
-      { "nombre": "jeremias", "puntos": 3 , "id": "17"},
-      { "nombre": "job", "puntos": 3 , "id": "18"}
+      { "nombre": "job", "puntos": 3 , "id": "15"}
     ],
     "id": "1"
   },

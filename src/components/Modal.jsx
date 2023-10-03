@@ -1,7 +1,7 @@
 
 const Modal = () => {
   return (
-    <div className="bg-slate-100/20 absolute h-full w-full flex justify-center items-center text-[600px] font-bold text-red-600">
+    <div className="bg-gray-100/10 absolute h-full w-full flex justify-center items-center text-[900px] font-bold text-red-600 overflow-hidden">
       X
     </div>
   )

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css"
 import Respuestas from "./components/respuestas";
 import preguntasRespuestas from "./db/preguntasRespuestas.json";
@@ -8,7 +8,12 @@ function App() {
   const [preguntaActual, setPreguntaActual] = useState(0);
   const [puntosTotales, setPuntosTotales] = useState(0)
   const [show, setShow] = useState(false)
+  const audioRef = useRef(null)
 
+  useEffect(() => {
+    
+  }, [])
+  
   function handleShow() {
     setShow(!show)
   }
@@ -33,6 +38,11 @@ function App() {
   return (
     <div className="h-screen w-full bg-blue-900 bg-gradient-to-r from-blue-800 border-4 border-yellow-300 relative">
       <div className="h-full flex flex-col justify-center items-center gap-8">
+        {/*
+        <audio ref={audioRef} autoPlay loop preload="auto">
+          <source src="/2m.mp3" type="audio/mpeg" />
+        </audio>*/}
+
         <h1 className="uppercase bg-gradient-to-r from-[#ffdd00] to-[#ffae00] bg-clip-text text-transparent text-[75px] font-bold mb-5">brilla y gana</h1>
         <span className="py-6 px-10 border-8 border-black rounded-xl text-white text-8xl font-black">
           {puntosTotales}
