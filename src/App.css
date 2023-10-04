@@ -1,0 +1,15 @@
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .animation {
+    animation: fadeInOut 5s infinite; /* 3s es la duración de la animación */
+  }

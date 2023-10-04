@@ -36,20 +36,25 @@ function App() {
   };
 
   return (
-    <div className="h-screen w-full bg-blue-900 bg-gradient-to-r from-blue-800 border-4 border-yellow-300 relative">
+    <div className="h-screen w-full bg-blue-900 bg-gradient-to-r from-blue-800 border-4 border-yellow-300">
       <div className="h-full flex flex-col justify-center items-center gap-8">
         
         <audio ref={audioRef} autoPlay loop preload="auto">
-          <source src="/2m.mp3" type="audio/mpeg" />
+          <source src="/1m.mp3" type="audio/mpeg" />
         </audio>
 
-        <h1 className="uppercase bg-gradient-to-r from-[#ffdd00] to-[#ffae00] bg-clip-text text-transparent text-[75px] font-bold mb-5">brilla y gana</h1>
-        <span className="py-6 px-10 border-8 border-black rounded-xl text-white text-8xl font-black">
+        <h1 style={{ WebkitTextStroke: '2px white'}} className="uppercase bg-gradient-to-r from-[#ffdd00] to-[#ffae00] bg-clip-text text-transparent text-[95px] font-bold">brilla y gana</h1>
+        <p className="py-5 px-11 border-4 border-white rounded-xl text-white bg-black text-9xl font-black">
           {puntosTotales}
-        </span>
-        <section className="w-3/5 border-4 bg-black grid grid-cols-2 gap-6 text-white p-5 rounded-2xl">
-            {preguntasRespuestas[preguntaActual].respuestas.map(respuesta => (
-              <Respuestas key={respuesta.id} respuesta={respuesta} sumarPuntos={sumarPuntos}/>
+        </p>
+        <section className="w-3/5 border-4 bg-black grid grid-cols-2 gap-6 text-white p-6 rounded-2xl">
+            {preguntasRespuestas[preguntaActual].respuestas.map((respuesta, index )=> (
+              <Respuestas
+              key={respuesta.id}
+              respuesta={respuesta}
+              sumarPuntos={sumarPuntos}
+              index={index}
+            />
             ))}
         </section>
 
