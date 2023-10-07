@@ -8,15 +8,44 @@ function App() {
   const [preguntaActual, setPreguntaActual] = useState(0);
   const [puntosTotales, setPuntosTotales] = useState(0)
   const [show, setShow] = useState(false)
-  const audioRef = useRef(null)
+  const [playlist, setPlaylist] = useState([
+    "/1m.mp3",
+    "/3m.mp3",
+    "/2m.mp3",
+    "/4m.mp3"
+  ]);
+
+  const [currentSongIndex, setCurrentSongIndex] = useState(0);
+  const [repetitions, setRepetitions] = useState(0);
+
+  const handleSongEnd = () => {
+    if (repetitions < 2) {
+      setRepetitions(repetitions + 1);
+    } else {
+      setRepetitions(0);
+      setCurrentSongIndex((prevIndex) =>
+        prevIndex === playlist.length - 1 ? 0 : prevIndex + 1
+      );
+    }
+  };
 
   useEffect(() => {
-    
-  }, [])
+    // Iniciar la música cuando se monta el componente
+    const audioElement = document.getElementById('audioPlayer');
+    audioElement.addEventListener('ended', handleSongEnd);
+    audioElement.play();
+
+    // Limpiar el evento cuando el componente se desmonta
+    return () => {
+      audioElement.removeEventListener('ended', handleSongEnd);
+    };
+  }, [currentSongIndex, repetitions]);
+
   
   function handleShow() {
     setShow(!show)
   }
+  
   const mostrarSiguientePregunta = () => {
     if (preguntaActual < preguntasRespuestas.length - 1) {
       setPreguntaActual(preguntaActual + 1);
@@ -39,9 +68,8 @@ function App() {
     <div className="h-screen w-full bg-blue-900 bg-gradient-to-r from-blue-800 border-4 border-yellow-300">
       <div className="h-full flex flex-col justify-center items-center gap-8">
         
-        <audio ref={audioRef} autoPlay loop preload="auto">
-          <source src="/1m.mp3" type="audio/mpeg" />
-        </audio>
+      <audio id="audioPlayer" autoPlay src={playlist[currentSongIndex]}/>
+
         <p className="py-5 px-11 border-4 border-white rounded-xl text-white bg-black text-9xl font-black">
           {puntosTotales}
         </p>
