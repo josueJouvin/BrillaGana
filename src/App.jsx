@@ -42,8 +42,6 @@ function App() {
         <audio ref={audioRef} autoPlay loop preload="auto">
           <source src="/1m.mp3" type="audio/mpeg" />
         </audio>
-
-        <h1 style={{ WebkitTextStroke: '2px white'}} className="uppercase bg-gradient-to-r from-[#ffdd00] to-[#ffae00] bg-clip-text text-transparent text-[95px] font-bold">brilla y gana</h1>
         <p className="py-5 px-11 border-4 border-white rounded-xl text-white bg-black text-9xl font-black">
           {puntosTotales}
         </p>
