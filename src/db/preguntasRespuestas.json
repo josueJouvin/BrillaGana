@@ -1,23 +1,116 @@
 [
   {
-    "pregunta": "1.- Mencione un personaje bíblico cuyo nombre comienza con la letra J.",
+    "pregunta": "1. Mencione un alimento que consume cuando va a la playa.",
     "respuestas": [
-      { "nombre": "Res", "puntos": 6 , "id": "11"},
-      { "nombre": "Res", "puntos": 5, "id": "12" },
-      { "nombre": "Res", "puntos": 4, "id": "13" },
-      { "nombre": "Res", "puntos": 3 , "id": "14"},
-      { "nombre": "Res", "puntos": 3 , "id": "15"}
+      { "nombre": "Bollo", "puntos": 16 , "id": "11"},
+      { "nombre": "Pescado / Mariscos", "puntos": 14, "id": "12" },
+      { "nombre": "Helado", "puntos": 9, "id": "13" },
+      { "nombre": "Agua", "puntos": 7 , "id": "14"},
+      { "nombre": "Ceviche", "puntos": 4 , "id": "15"}
     ],
     "id": "1"
   },
   {
-    "pregunta": "2.- ¿Cuál es el ingrediente que más utiliza en sus comidas?",
+    "pregunta": "2.- ¿Cuál cree usted que fue el primer animal que bajo del arca?",
     "respuestas": [
-      { "nombre": "Res", "puntos": 13 , "id": "21"},
-      { "nombre": "Res", "puntos": 5, "id": "22" },
-      { "nombre": "Res", "puntos": 2, "id": "23" },
-      { "nombre": "Res", "puntos": 2 , "id": "24"}
+      { "nombre": "Paloma / Cuervo", "puntos": 16 , "id": "21"},
+      { "nombre": "Perro", "puntos": 10, "id": "22" },
+      { "nombre": "Elefante", "puntos": 8, "id": "23" },
+      { "nombre": "Gallina / Pollo", "puntos": 6 , "id": "24"},
+      { "nombre": "Leon / Tigre", "puntos": 6, "id": "25" },
+      { "nombre": "Jirafa", "puntos": 4 , "id": "26"}
     ],
     "id": "2"
+  },
+  {
+    "pregunta": "3.-  ¿Por qué razón no asistirías a un evento?",
+    "respuestas": [
+      { "nombre": "Tiempo / Trabajo", "puntos": 18 , "id": "31"},
+      { "nombre": "Sin Interes", "puntos": 13, "id": "32" },
+      { "nombre": "Enfermedad / Salud", "puntos": 10, "id": "33" },
+      { "nombre": "Ropa", "puntos": 6 , "id": "34"},
+      { "nombre": "no me invitaron", "puntos": 3, "id": "35" }
+    ],
+    "id": "3"
+  },
+  {
+    "pregunta": "4.- Mencione un personaje bíblico cuyo nombre comienza con la letra J.",
+    "respuestas": [
+      { "nombre": "Jesus", "puntos": 12 , "id": "41"},
+      { "nombre": "Josue", "puntos": 11, "id": "42" },
+      { "nombre": "Jose", "puntos": 10, "id": "43" },
+      { "nombre": "Job", "puntos": 7 , "id": "44"},
+      { "nombre": "Jeremias", "puntos": 6, "id": "45" },
+      { "nombre": "Juan", "puntos": 4, "id": "46" }
+    ],
+    "id": "4"
+  },
+  {
+    "pregunta": "5.- ¿Cuál es el ingrediente que más utiliza en sus comidas?",
+    "respuestas": [
+      { "nombre": "Sal", "puntos": 20 , "id": "51"},
+      { "nombre": "Aceite", "puntos": 10, "id": "52" },
+      { "nombre": "Arroz", "puntos": 8, "id": "53" },
+      { "nombre": "Cebolla", "puntos": 7 , "id": "54"},
+      { "nombre": "Agua", "puntos": 5, "id": "55" }
+    ],
+    "id": "5"
+  },
+  {
+    "pregunta": "6.- Mencione una de las plagas que afecto a egipto.",
+    "respuestas": [
+      { "nombre": "Langostas", "puntos": 17 , "id": "61"},
+      { "nombre": "Sapos / Ranas", "puntos": 10, "id": "62" },
+      { "nombre": "Piojos", "puntos": 8, "id": "63" },
+      { "nombre": "Los Primogenitos", "puntos": 6 , "id": "64"},
+      { "nombre": "Moscas / Tabano", "puntos": 5, "id": "65" },
+      { "nombre": "Agua en sangre", "puntos": 4, "id": "66" }
+    ],
+    "id": "6"
+  },
+  {
+    "pregunta": "7.- ¿Qué es lo primero que usted hace al llegar a la iglesia?",
+    "respuestas": [
+      { "nombre": "orar", "puntos": 18 , "id": "71"},
+      { "nombre": "Limpiar / Arreglar", "puntos": 10, "id": "72" },
+      { "nombre": "Saludar", "puntos": 10, "id": "73" },
+      { "nombre": "Sentarse", "puntos": 7 , "id": "74"},
+      { "nombre": "Conectar Equipos", "puntos": 5, "id": "75" }
+    ],
+    "id": "7"
+  },
+  {
+    "pregunta": "8.- Mencione un deporte que se practica sentado.",
+    "respuestas": [
+      { "nombre": "Automovilismo", "puntos": 18 , "id": "81"},
+      { "nombre": "Ajedrez", "puntos": 15, "id": "82" },
+      { "nombre": "Ciclismo / Bicicleta", "puntos": 9, "id": "83" },
+      { "nombre": "Remo / Kayak", "puntos": 5 , "id": "84"},
+      { "nombre": "Comer", "puntos": 3, "id": "85" }
+    ],
+    "id": "8"
+  },
+  {
+    "pregunta": "9.- ¿Qué alimento se puede preparar en menos de 10 minutos?",
+    "respuestas": [
+      { "nombre": "Sanduche", "puntos": 16 , "id": "91"},
+      { "nombre": "Huevo", "puntos": 11, "id": "92" },
+      { "nombre": "Atun", "puntos": 8, "id": "93" },
+      { "nombre": "Ensalada", "puntos": 7 , "id": "94"},
+      { "nombre": "Verde / Maduro", "puntos": 5, "id": "95" },
+      { "nombre": "Canguil", "puntos": 3, "id": "96" }
+    ],
+    "id": "9"
+  },
+  {
+    "pregunta": "10.-  ¿Qué es lo más importante en una fiesta?",
+    "respuestas": [
+      { "nombre": "Comida / torta", "puntos": 25 , "id": "101"},
+      { "nombre": "Musica / Ambiente", "puntos": 10, "id": "102" },
+      { "nombre": "Anfitrion", "puntos": 7, "id": "103" },
+      { "nombre": "personas", "puntos": 6 , "id": "104"},
+      { "nombre": "Animador", "puntos": 2, "id": "105" }
+    ],
+    "id": "10"
   }
 ]

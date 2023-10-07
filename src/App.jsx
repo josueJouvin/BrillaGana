@@ -47,7 +47,7 @@ function App() {
         <p className="py-5 px-11 border-4 border-white rounded-xl text-white bg-black text-9xl font-black">
           {puntosTotales}
         </p>
-        <section className="w-3/5 border-4 bg-black grid grid-cols-2 gap-6 text-white p-6 rounded-2xl">
+        <section className="w-2/3 border-4 bg-black grid grid-cols-2 gap-6 text-white p-6 rounded-2xl text-center">
             {preguntasRespuestas[preguntaActual].respuestas.map((respuesta, index )=> (
               <Respuestas
               key={respuesta.id}

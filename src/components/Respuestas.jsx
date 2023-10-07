@@ -20,7 +20,7 @@ const Respuestas = ({ respuesta, sumarPuntos, index }) => {
 
   return (
     <div
-      className={`relative flex justify-between items-center cursor-pointer px-5 py-7 text-black font-bold text-6xl uppercase ${
+      className={`relative flex justify-between items-center cursor-pointer px-5 py-7 text-black font-bold text-5xl uppercase ${
         flipped
           ? "bg-green-500 bg-gradient-to-r from-green-400 animate-rotate-y animate-once animate-ease-out animate-reverse animate-fill-both"
           : "bg-blue-500 bg-gradient-to-r from-blue-400"
